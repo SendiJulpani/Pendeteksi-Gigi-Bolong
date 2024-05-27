@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>634</width>
+    <height>407</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="button_loadcitra">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>290</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>LOAD CITRA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>291</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>20</y>
+      <width>291</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_prosescitra">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>290</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PROSES CITRA</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>634</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOperasi_Crop">
+    <property name="title">
+     <string>Operasi Crop</string>
+    </property>
+   </widget>
+   <addaction name="menuOperasi_Crop"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOperasi_Pencerahan">
+   <property name="text">
+    <string>Operasi Pencerahan</string>
+   </property>
+  </action>
+  <action name="actionSimple_Contrast">
+   <property name="text">
+    <string>Simple Contrast</string>
+   </property>
+  </action>
+  <action name="actionContrast_Streching">
+   <property name="text">
+    <string>Contrast Streching</string>
+   </property>
+  </action>
+  <action name="actionNegative_Triggered">
+   <property name="text">
+    <string>Negative Triggered</string>
+   </property>
+  </action>
+  <action name="actionnegative">
+   <property name="text">
+    <string>negative</string>
+   </property>
+  </action>
+  <action name="actionoperasi_biner">
+   <property name="text">
+    <string>operasi biner</string>
+   </property>
+  </action>
+  <action name="actionhistogram_Grayscale">
+   <property name="text">
+    <string>histogram Grayscale</string>
+   </property>
+  </action>
+  <action name="actionHistogram_RGB">
+   <property name="text">
+    <string>Histogram RGB</string>
+   </property>
+  </action>
+  <action name="actionHistogram_Equalization">
+   <property name="text">
+    <string>Histogram Equalization</string>
+   </property>
+  </action>
+  <action name="actionTranslasi">
+   <property name="text">
+    <string>Translasi</string>
+   </property>
+  </action>
+  <action name="action90_derajat">
+   <property name="text">
+    <string>90 derajat</string>
+   </property>
+  </action>
+  <action name="action_90_derajat">
+   <property name="text">
+    <string>-90 derajat</string>
+   </property>
+  </action>
+  <action name="action_45_derajat">
+   <property name="text">
+    <string>-45 derajat</string>
+   </property>
+  </action>
+  <action name="action45_derajat">
+   <property name="text">
+    <string>45 derajat</string>
+   </property>
+  </action>
+  <action name="action180">
+   <property name="text">
+    <string>180 derajat</string>
+   </property>
+  </action>
+  <action name="action180_derajat">
+   <property name="text">
+    <string>180 derajat</string>
+   </property>
+  </action>
+  <action name="actionRisize">
+   <property name="text">
+    <string>Risize</string>
+   </property>
+  </action>
+  <action name="action2x">
+   <property name="text">
+    <string>2x</string>
+   </property>
+  </action>
+  <action name="action3x">
+   <property name="text">
+    <string>3x</string>
+   </property>
+  </action>
+  <action name="action4x">
+   <property name="text">
+    <string>4x</string>
+   </property>
+  </action>
+  <action name="action1_2">
+   <property name="text">
+    <string>1/2</string>
+   </property>
+  </action>
+  <action name="action1_4">
+   <property name="text">
+    <string>1/4</string>
+   </property>
+  </action>
+  <action name="action3_4">
+   <property name="text">
+    <string>3/4</string>
+   </property>
+  </action>
+  <action name="action900x400">
+   <property name="text">
+    <string>900x400</string>
+   </property>
+  </action>
+  <action name="actionCrop">
+   <property name="text">
+    <string>Crop</string>
+   </property>
+  </action>
+  <action name="actionTambah_Dan_Kurang">
+   <property name="text">
+    <string>Tambah Dan Kurang</string>
+   </property>
+  </action>
+  <action name="actionOperasi_AND">
+   <property name="text">
+    <string>Operasi AND</string>
+   </property>
+  </action>
+  <action name="actionKali_dan_Bagi">
+   <property name="text">
+    <string>Kali dan Bagi</string>
+   </property>
+  </action>
+  <action name="actionKonvolusi_A">
+   <property name="text">
+    <string>Konvolusi A</string>
+   </property>
+  </action>
+  <action name="actionKonvolusi_B">
+   <property name="text">
+    <string>Konvolusi B</string>
+   </property>
+  </action>
+  <action name="actionKernel_1_4">
+   <property name="text">
+    <string>Kernel 1/4</string>
+   </property>
+  </action>
+  <action name="actionKernel_1_9">
+   <property name="text">
+    <string>Kernel 1/9</string>
+   </property>
+  </action>
+  <action name="actionGaussian_Filter">
+   <property name="text">
+    <string>Gaussian Filter</string>
+   </property>
+  </action>
+  <action name="actionke_i">
+   <property name="text">
+    <string>ke i</string>
+   </property>
+  </action>
+  <action name="actionke_ii">
+   <property name="text">
+    <string>ke ii</string>
+   </property>
+  </action>
+  <action name="actionke_iii">
+   <property name="text">
+    <string>ke iii</string>
+   </property>
+  </action>
+  <action name="actionke_iv">
+   <property name="text">
+    <string>ke iv</string>
+   </property>
+  </action>
+  <action name="actionke_v">
+   <property name="text">
+    <string>ke v</string>
+   </property>
+  </action>
+  <action name="actionke_vi">
+   <property name="text">
+    <string>ke vi</string>
+   </property>
+  </action>
+  <action name="actionLaplace">
+   <property name="text">
+    <string>Laplace</string>
+   </property>
+  </action>
+  <action name="actionMedianFilter">
+   <property name="text">
+    <string>MedianFilter</string>
+   </property>
+  </action>
+  <action name="actionMaxFilter">
+   <property name="text">
+    <string>MaxFilter</string>
+   </property>
+  </action>
+  <action name="actionMinFilter">
+   <property name="text">
+    <string>MinFilter</string>
+   </property>
+  </action>
+  <action name="actionDFT_Smooting_Image">
+   <property name="text">
+    <string>DFT Smooting Image</string>
+   </property>
+  </action>
+  <action name="actionDFT_Edge_Detection">
+   <property name="text">
+    <string>DFT Edge Detection</string>
+   </property>
+  </action>
+  <action name="actionOperasi_Sobel">
+   <property name="text">
+    <string>Operasi Sobel</string>
+   </property>
+  </action>
+  <action name="actionOperasi_Prewitt">
+   <property name="text">
+    <string>Operasi Prewitt</string>
+   </property>
+  </action>
+  <action name="actionOperasi_Robert">
+   <property name="text">
+    <string>Operasi Robert</string>
+   </property>
+  </action>
+  <action name="actionOperasi_Canny">
+   <property name="text">
+    <string>Operasi Canny</string>
+   </property>
+  </action>
+  <action name="actionDelasi">
+   <property name="text">
+    <string>Delasi</string>
+   </property>
+  </action>
+  <action name="actionErosi">
+   <property name="text">
+    <string>Erosi</string>
+   </property>
+  </action>
+  <action name="actionOpening">
+   <property name="text">
+    <string>Opening</string>
+   </property>
+  </action>
+  <action name="actionClosing">
+   <property name="text">
+    <string>Closing</string>
+   </property>
+  </action>
+  <action name="actionSkeletonizing">
+   <property name="text">
+    <string>Skeletonizing</string>
+   </property>
+  </action>
+  <action name="actionContur">
+   <property name="text">
+    <string>Contur</string>
+   </property>
+  </action>
+  <action name="actionBinary">
+   <property name="text">
+    <string>Binary</string>
+   </property>
+  </action>
+  <action name="actionBinary_Invers">
+   <property name="text">
+    <string>Binary Invers</string>
+   </property>
+  </action>
+  <action name="actionTrunc">
+   <property name="text">
+    <string>Trunc</string>
+   </property>
+  </action>
+  <action name="actionTo_Zero">
+   <property name="text">
+    <string>To Zero</string>
+   </property>
+  </action>
+  <action name="actionTo_Zero_Invers">
+   <property name="text">
+    <string>To Zero Invers</string>
+   </property>
+  </action>
+  <action name="actionMean_Thresholding">
+   <property name="text">
+    <string>Mean Thresholding</string>
+   </property>
+  </action>
+  <action name="actionGaussian_Thresholding">
+   <property name="text">
+    <string>Gaussian Thresholding</string>
+   </property>
+  </action>
+  <action name="actionOtsu_Thresholding">
+   <property name="text">
+    <string>Otsu Thresholding</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
